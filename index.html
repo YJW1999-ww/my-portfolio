@@ -2,14 +2,68 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background-image: url(beijing3.jpg);
+      }
+    </style>
     <title>My Portfolio</title>
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
+    <h1>Welcome to My Homepage</h1>
+    <a href="#about-my-hometown">hometown</a>
+    <a href="#about-my-school">school</a>
+    <a href="#about-my-pet">pet</a>
+    <a href="#about-my-favorite-food">food</a>
+
+    <h2>About me</h2>
+    <p>こんにちは、楽です！</p>
+    <p>中国から参りました～</p>
+    <p>今年は日本にいる６年目です！</p>
+    <p>今大学４年生になり、日本で就職するために頑張ってます！</p>
+    <p>よろしくお願いします！</p>
+    
+
+    <div class="hometown">
+     
+      <button id="about-my-hometown">My hometown</button>
+      <img src="kanannsyou.jpg"  class="hometownphoto" id="hometownphoto">
+    <p class="momo">ここは中国の河南省です。でも知る人は少ないと思いますが、</p>
+      <p class="momo">有名な場所は…少林寺かな！</p>
+      <p class="momo">以下は有名な食べものです！</p>
+    <img src="hulatang.jpg" class="food">
+    <img src="huimian.jpg" class="food">
+    <img src="roubing.jpg" class="food">
+    
+    </div>
+
+   <div class="myschool">
+    <button id="about-my-school">My school</button>
+    <img src="gifudaigaku.png"  class="mschool" id="mschool">
+    <p class="momo">うちの岐阜大学です！自然がいっぱい！</p>
+
+    <button id="about-my-pet">My pet</button>
+    <img src="pet.jpg"  class="mpet" id="mpet">
+  </div>
+
+    <p class="momo">名前はきなこです～<p>
+
+    <h3>Quiz Time!</h3>
+
+    <button id="about-my-favorite-food">私一番好きな果物はなんだと思う？</button>
+    <img src="wenhao.jpg"  class="mfood" id="mfood">
+  
+    <div>
+      <button id="choice-1">バナナ</button>
+      <button id="choice-2">ドリアン</button>
+      <button id="choice-3">ドラゴンフルーツ</button>
+    </div>
+    <div id="feedback"></div>
+  </div>
     <script src="main.js"></script>
   </body>
 </html>
